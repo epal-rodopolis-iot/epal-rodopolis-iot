@@ -1,4 +1,4 @@
-#Main script for the implementation off the motor control project conducted at 
+# Main script for the implementation off the motor control project conducted at 
 # EPAL Rodopolis
 # Rodopoli 62055
 # Serres
@@ -9,10 +9,6 @@
 # 2. https://github.com/alexa/skill-sample-python-fact (AWS tutorial)
 # 3. https://github.com/aws/aws-iot-device-sdk-python/ (ΑWS tutorial)
 #
-#
-#
-
-
 
 from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 import paho.mqtt.publish as publish
