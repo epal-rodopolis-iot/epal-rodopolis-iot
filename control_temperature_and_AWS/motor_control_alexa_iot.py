@@ -1,3 +1,19 @@
+#Main script for the implementation off the motor control project conducted at 
+# EPAL Rodopolis
+# Rodopoli 62055
+# Serres
+# http://epal-rodop.ser.sch.gr
+# contact: Konstantinos Chertouras - Coach IOT Team - EPAL Rodopolis IOT team (chertour at sch.gr )
+# Inspired by :
+# 1. https://medium.com/@arthurltonelli/building-an-iot-device-with-alexa-aws-python-and-raspberry-pi-274d941ef3c3 (Arthur Tonelli) 
+# 2. https://github.com/alexa/skill-sample-python-fact (AWS tutorial)
+# 3. https://github.com/aws/aws-iot-device-sdk-python/ (ΑWS tutorial)
+#
+#
+#
+
+
+
 from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 import paho.mqtt.publish as publish
 import logging
