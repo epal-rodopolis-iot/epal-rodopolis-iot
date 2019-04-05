@@ -30,6 +30,8 @@ import sys
 import RPi.GPIO as GPIO
 
 
+# WARNING: we use raspberry port 18 . Please change your pin accordingly. 
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(18,GPIO.OUT)
