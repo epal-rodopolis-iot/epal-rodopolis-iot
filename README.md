@@ -16,9 +16,9 @@
 
 -	Να ελέγχει τις συνδεδεμένες στο [Raspberry PI](https://www.raspberrypi.org/) συσκευές (π.χ dc μοτερ) μέσω της χρήσης του πρωτοκόλλου [MQTT](http://mqtt.org/), των [AWS  IOT Device Shadows](https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html) και του message broker τους, της γλώσσας Python καθώς και του [AWS Python SDK](https://aws.amazon.com/sdk-for-python/).  
 
--	Να δέχεται εντολές από ένα [IOT Button](https://aws.amazon.com/iotbutton/) για τη διαπεραίωση απλών καθηκόντων απο το Raspberry Pi, όπως το άνοιγμα και το κλείσιμο ενός μοτέρ ή ενός led, με σκοπό την τροποποίηση των παραμέτρων του περιβάλλοντος (π.χ. εκκίνηση ενός ανεμιστήρα για την πτώση της θερμοκρασίας, άνοιγμα ενός led για φωτισμό κοκ). 
+~~-	Να δέχεται εντολές από ένα [IOT Button](https://aws.amazon.com/iotbutton/) για τη διαπεραίωση απλών καθηκόντων απο το Raspberry Pi, όπως το άνοιγμα και το κλείσιμο ενός μοτέρ ή ενός led, με σκοπό την τροποποίηση των παραμέτρων του περιβάλλοντος (π.χ. εκκίνηση ενός ανεμιστήρα για την πτώση της θερμοκρασίας, άνοιγμα ενός led για φωτισμό κοκ).~~ Το σύστημα δεν υλοποιήθηκε λόγω έλλειψης χρηματοδότησης.
 
-- Να δέχεται φωνητικές εντολές τις οποίες θα ερμηνεύει και θα εκτελεί μέσω ενός **[VUI (Voice User Interface)](https://developer.amazon.com/alexa-skills-kit/vui)** και της συσκευής [Amazon Alexa](https://developer.amazon.com/alexa) ή του [Echo Dot](https://www.amazon.com/Amazon-Echo-Dot-Portable-Bluetooth-Speaker-with-Alexa-Black/dp/B01DFKC2SO).
+- Να δέχεται φωνητικές εντολές τις οποίες θα ερμηνεύει και θα εκτελεί μέσω ενός **[VUI (Voice User Interface)](https://developer.amazon.com/alexa-skills-kit/vui)** και της συσκευής [Echo Dot](https://www.amazon.com/Amazon-Echo-Dot-Portable-Bluetooth-Speaker-with-Alexa-Black/dp/B01DFKC2SO).
 Οι εν λόγω εντολές θα εκτελούνται μέσω της προγραμματιστικής διασύνδεσης του service της ALEXA, του Raspberry Pi και των AWS Lambda functions. 
 
 # Λίστα υλικών
